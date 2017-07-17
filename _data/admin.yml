@@ -1,18 +1,25 @@
 - name: Alex Fuser
-  position: President
+  position: Lead Coordinator 
   degree: Engineer
   github: alexfuser
   interests:
     - R
     - python
+    - Open Science
+    - Open Knowledge
+    - Open Education
+    - Open data
     - DataViz
     - Processing and Analyzing data
 
 - name: Liza Durón
-  position: Special Events Coordinator and Co-President
+  position: Special Events Coordinator and Lead Coordinator
   Degree: Information Technology Management
   github: elidron
   interests:
     - Programming
     - Open Science
     - Social Network Analysis
+    - Open Education
+    - Open Knowledge
+
