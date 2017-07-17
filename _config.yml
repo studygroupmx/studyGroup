@@ -4,8 +4,8 @@
 #Step 1: give your study group a name and a short description,
 #and choose a language from the options in the _data directory:
 title: Study Group México
-description: "A study group."
-language: es
+description: "We are a group of students and researchers dedicated to learning about and sharing scientific coding techniques and knowledge in an effort to improve scientific research."
+
 
 #Step 2: press the green 'Commit Changes' button at the bottom of this page.
 
@@ -18,9 +18,8 @@ language: es
 # Optional Configuration
 # None of these things need to be changed - but feel free!
 
-titleBackground: "https://s3-us-west-2.amazonaws.com/webmaker-kits/learning%402x.jpg"
-headlineSmall: "Welcome To Our Study Group!"
-headlineMain: "Let's Work Together"
+headlineSmall: "Bienvenido al Grupo de Estudio de México!"
+headlineMain: "Trabajemos juntos"
 
 # Setup Google Calendar
 # Usage:
@@ -28,10 +27,23 @@ headlineMain: "Let's Work Together"
 # 2. change 'USER' in the example urls below to the username of the google account you made for your calendar
 # 3. set calendar_on: True.
 
-calendar_on: False
+calendar_on: True
 calendar_embed_url: "https://www.google.com/calendar/embed?src=studygroupmx@gmail.com"
 calendar_ical_url: "https://www.google.com/calendar/ical/studygroupmx@gmail.com/public/basic.ics"
+# ===============================
+# Categories for sorting lessons.
+# ===============================
 
+languages:
+  - python
+  - r
+  - git
+  - misc
+
+levels:
+  - beginner
+  - intermediate
+  - advanced
 
 #========================================
 # No touching anything below this line :)
