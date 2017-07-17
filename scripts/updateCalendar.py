@@ -41,12 +41,12 @@ except ImportError:
 
 # Modify these variables in step 2 above -------------------
 # APPLICATION_NAME: app name you created in step one above:
-APPLICATION_NAME = 'test'
+APPLICATION_NAME = 'StudyGroupMx Calendar'
 # CALENDAR_ID: google account name you created for your calendar:
-CALENDAR_ID = 'USER@gmail.com'
+CALENDAR_ID = 'studygroupmx@gmail.com'
 # TIME_ZONE_STR: check here:
 # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-TIME_ZONE_STR = 'America/Vancouver'
+TIME_ZONE_STR = 'America/Mexico_City'
 # -----------------------------------------------------------
 
 SCOPES = 'https://www.googleapis.com/auth/calendar'
