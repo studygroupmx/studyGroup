@@ -1,0 +1,9 @@
+- name: Alex Fuser
+  position: President
+  degree: Engineer
+  github: alexfuser
+  interests:
+    - R
+    - python
+    - DataViz
+    - Processing and Analyzing data
