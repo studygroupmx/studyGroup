@@ -42,9 +42,9 @@ languages:
   - misc
 
 levels:
-  - beginner
-  - intermediate
-  - advanced
+  - básico
+  - intermedio
+  - avanzado
 
 #========================================
 # No touching anything below this line :)
