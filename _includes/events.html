@@ -3,10 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Events</h2>
+                    <h2 class="section-heading">Eventos</h2>
                     <h3 class="section-subheading text-muted">
-                      Unless otherwise stated, all our events are held in Rm 408 on the 4th floor of the <a href="https://www.openstreetmap.org/way/14748316">
-                         Burton Tower in the McLennan Physics building</a>, at the corner of Huron Street and Russell Street.
                     </h3>
                 </div>
             </div>
@@ -33,8 +31,8 @@
               {% else %}
               <div class="row">
                     <div class="col-lg-12 text-center">
-                        <a href="{{ site.github.owner_url }}/Events/issues" class="btn btn-xl eventSuggest">Suggest an Event</a>
-                        <a href="{{ site.github.url }}/CONTRIBUTING" class="btn btn-xl eventSuggest">How to Lead a Session</a>
+                        <a href="{{ site.github.owner_url }}/Events/issues" class="btn btn-xl eventSuggest">Sugerir un evento</a>
+                      <!--  <a href="{{ site.github.url }}/CONTRIBUTING" class="btn btn-xl eventSuggest">How to Lead a Session</a> -->
                     </div>
               </div>
               {% endif %}
@@ -45,20 +43,20 @@
             {% else %}
             <div class="col-lg-12">
             {% endif %}
-              <h3 class="section-heading eventInstructions">Want to be notified of our upcoming events?</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">Head over to <a href="{{ site.github.owner_url }}/Events">GitHub</a> and watch our repository, like this:</h3>
+              <h3 class="section-heading eventInstructions">¿Quieres ser notificado de nuestros próximos eventos?</h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">Ve a <a href="{{ site.github.owner_url }}/Events">GitHub</a> y sigue nuestro repositorio, así:</h3>
               <figure>
                 <img src="https://help.github.com/assets/images/help/notifications/watcher_picker.gif"></img>
-                <figcaption>Look in the top right-hand corner of <a href="{{ site.github.owner_url }}/Events">our repo</a>, and click 'Watching.' <br>You can undo this at any time in the same place.</figcaption>
+                <figcaption>Mire en la esquina superior derecha de <a href="{{ site.github.owner_url }}/Events">nuestro repo</a>, y haz click en 'Watching.' <br>Puedes deshacer esto en cualquier momento en el mismo lugar.</figcaption>
               </figure>
             </div>
             {% if site.calendar_on %}
             <div class="col-lg-6">
-              <h3 class="section-heading eventInstructions">Subscribe to our events calendar!</h3>
+              <h3 class="section-heading eventInstructions">!Suscríbete a nuestro calendario de eventos!</h3>
                 <iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=studygroupmx%40gmail.com&amp;ctz=America%2FMexico_City" style="border-width:0" width="400" height="400" frameborder="0" scrolling="no"></iframe>
-              <h3 class="section-subheading text-muted eventSubinstructions">We also invite you to follow <a href="{{ site.calendar_embed_url }}" target="_blank">our calendar</a>, where events will be posted. </h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use Google calendar, you can add our calendar by pressing the "Google Calendar" button at the bottom-right of <a href="{{ site.calendar_embed_url }}" target="_blank">this page</a>.</h3>
-              <h3 class="section-subheading text-muted eventSubinstructions">If you use another calendar app, you can copy and paste <a href="{{ site.calendar_ical_url }}">this address</a> into any calendar product that supports the iCal format.</h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">También te invitamos a que sigas <a href="{{ site.calendar_embed_url }}" target="_blank">nuestro calendario</a>, donde los eventos serán publicados. </h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">Si utilizas Google Calendar, puedes agregar nuestro calendario pulsando el botón"Google Calendar" en la parte inferior derecha de <a href="{{ site.calendar_embed_url }}" target="_blank">esta página</a>.</h3>
+              <h3 class="section-subheading text-muted eventSubinstructions">Si utilizas otra aplicación de calendario, puedes copiar y pegar <a href="{{ site.calendar_ical_url }}">esta dirección</a> en cualquier producto de calendario compatible con el formato iCal.</h3>
             </div>
             {% endif %}
         </div>
