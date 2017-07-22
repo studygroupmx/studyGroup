@@ -1,1 +1,42 @@
+- name: Berta Díaz
+  degree: 
+  github: bertad93
+  interests:
+     - Investigación Aplicada
+     - Análisis y Visualización de Datos
 
+- name: Ana Abreu
+  degree: 
+  github: eudoxocnido
+  interests:
+     - R
+     - LaTex
+     - Python
+
+- name: Nelly Angelica
+  degree: 
+  github: nellalela
+  interests:
+     - Aplicaciones y análisis de datos
+
+- name: José Luis
+  degree: 
+  github: puentejose
+  interests:
+     - Aplicaciones Web
+     - Análisis de datos
+     - python
+     
+- name: Ignacio López
+  degree: 
+  github: naxido96
+  interests:
+     - Aplicaciones Web
+     - Capacitar a personas   
+
+- name: Angélica Miranda
+  degree: 
+  github: satirama
+  interests:
+     - Desarrollo y diseño de Software    
+     
