@@ -1,0 +1,11 @@
+---
+
+title: Aprende a crear tu primer sitio Web con HTML5 y CSS3
+text: En este taller, impartido por Ignacio López, aprenderemos HTML5 y CSS3 que son los lenguajes base para los sitios y las aplicaciones Web.
+location: Data Cívica 
+link: https://github.com/studygroupmx/studyGroup/issues/4 
+date: 2017-08-11 
+startTime: '19:00' 
+endTime: '22:00' 
+
+---
